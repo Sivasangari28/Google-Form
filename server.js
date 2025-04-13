@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Connect to MongoDB
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://komathi:komathi@cluster0.hpha8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://sivasangari:sivasangari@cluster0.hpha8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error('MongoDB connection error:', err));
 
